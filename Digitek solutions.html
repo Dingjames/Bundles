@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+       .body  {
+      font-family: Arial;
+      font-size: 30px;
+      padding: 8px;
+      color: purple;
+      }
+      
+      * {
+      box-sizing: border-box;
+      }
+      
+      .row {
+      display: -ms-flexbox; /* IE10 */
+      display: flex;
+      -ms-flex-wrap: wrap; /* IE10 */
+      flex-wrap: wrap;
+      margin: 0 -16px;
+      }
+      
+      .col-25 {
+      -ms-flex: 25%; /* IE10 */
+      flex: 25%;
+      }
+      
+      .col-50 {
+      -ms-flex: 50%; /* IE10 */
+      flex: 50%;
+      }
+      
+      .col-75 {
+      -ms-flex: 75%; /* IE10 */
+      flex: 75%;
+      }
+      
+      .col-25,
+      .col-50,
+      .col-75 {
+      padding: 0 16px;
+      }
+      
+      .container {
+      background-color: lightblue;
+      padding: 5px 20px 15px 20px;
+      border: 0.9px solid red;
+      border-radius: 4px;
+      }
+      
+      .input {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 12px;
+      border: 1px solid green;
+      border-radius: 3px;
+      }
+      
+      label {
+      margin-bottom: 10px;
+      display: block;
+      }
+      
+      .icon-container {
+      margin-bottom: 20px;
+      padding: 7px 0;
+      font-size: 24px;
+      }
+      
+      .btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px;
+      margin: 10px 0;
+      border: solid black;
+      width: 100%;
+      border-radius: 1.0px;
+      cursor: pointer;
+      font-size: 17px;
+      }
+      
+      .btn2 {
+      background-color: yellow;
+      color: green;
+      padding: 12px;
+      margin: 10px 0;
+      border: 2px solid green;
+      width: 70%;
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: 29px;
+      }
+      
+      .btn:hover {
+      background-color: #45a049;
+      }
+      
+      a {
+      color: #2196F3;
+      }
+      
+      hr {
+      border: 1px solid green;
+      }
+      
+      .hex {
+      color:blue;
+      font-family:Times;
+      }
+      
+      span.price {
+      float: right;
+      color: grey;
+      }
+      
+      @media (max-width: 800px) {
+      .row {
+      flex-direction: column-reverse;
+      }
+      .col-25 {
+      margin-bottom: 20px;
+      }
+      }
+      </style>
+      </head>
+        <body>
+        <div class="col-25">
+        <div class="container">
+        <center>
+        <h1 class="body">Digitek Solutions Kenya</h1>
+        <p><i>Get amazing data at affordable prices</i></p>
+        <p><i>Kindly deposit the amount you wish to spend before purchasing the offers</i></p>
+        </center>
+        </div>
+        </div>
+        
+        <div>
+        <div class="col-25">
+        <div class="container">
+        <h3>YOUR ACCOUNT<span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b></b></span></h3>
+        <p><b>BALANCE</b> <span class="price" style="color:red"><b>Kshs 0.00</b></span></p>
+        <hr>
+         <input type="submit" value="DEPOSIT" class="btn2">
+        </div>
+        </div>
+        </div>
+  
+       <div class="col-25">
+       <div class="container">
+       <h2>DATA BUNDLE<span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>PRICE</b></span></h2>
+       <h3>DAILY DATA <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>ALL NETWORK</b></span></h3>
+       <p><b>5GB</b> <span class="price" style="color:red"><b>  Kshs 50.00</b></span></p>
+       <p><b>10GB</b> <span class="price" style="color:red"><b>Kshs 100.00</b></span></p>
+       <p><b>20GB</b> <span class="price" style="color:red"><b>Kshs 200.00</b></span></p>
+       <p><b>50GB</b> <span class="price" style="color:red"><b>Kshs 400.00</b></span></p>
+       <hr>
+       <label for="phone"><b>Phone number:</b></label>
+       <input class="input" type="number" placeholder="enter the number to receive the data">
+          <input type="submit" value="Purchase" class="btn">
+       </div>
+       </div>
+       
+       <div class="col-25">
+       <div class="container">
+       <h3>PLATINUM OFFER<span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>NO EXPIRY</b></span></h3>
+       <p><b>10GB plus 1500minutes</b> <span class="price" style="color:red"><b> Kshs 200.00</b></span></p>
+       <p><b>20GB plus 1500minutes</b> <span class="price" style="color:red"><b> Kshs 300.00</b></span></p>
+       <p><b>30GB plus 1500minutes</b> <span class="price" style="color:red"><b> Kshs 400.00</b></span></p>
+       <p><b>40GB plus 1500minutes</b> <span class="price" style="color:red"><b> Kshs 600.00</b></span></p>
+       <p><b>50GB plus 1500minutes</b> <span class="price" style="color:red"><b> Kshs 750.00</b></span></p>
+       <p><b>60GB plus 1500minutes</b> <span class="price" style="color:red"><b> Kshs 800.00</b></span></p>
+       <p><b>70GB plus 1500minutes</b> <span class="price" style="color:red"><b> Kshs 900.00</b></span></p>
+       <p><b>80GB plus 1500minutes</b> <span class="price" style="color:red"><b>Kshs 1100.00</b></span></p>
+       <hr>
+       <label for="phone"><b>Phone number:</b></label>
+       <input class="input" type="number" placeholder="enter the number to receive the data">
+       <input type="submit" value="Purchase" class="btn">
+       </div>
+       </div><div class="col-25">
+       <div class="container">
+       <h3>MINUTES <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>NO EXPIRY</b></span></h3>
+       <p><b> 500 minutes</b> <span class="price" style="color:red"><b>Kshs 100.00</b></span></p>
+       <p><b>1000 minutes</b> <span class="price" style="color:red"><b>Kshs 200.00</b></span></p>
+       <p><b>1500 minutes</b> <span class="price" style="color:red"><b>Kshs 300.00</b></span></p>
+       <p><b>2000 minutes</b> <span class="price" style="color:red"><b>Kshs 400.00</b></span></p>
+       <p><b>2500 minutes</b> <span class="price" style="color:red"><b>Kshs 500.00</b></span></p>
+       <p><b>3000 minutes</b> <span class="price" style="color:red"><b>Kshs 600.00</b></span></p>
+       <p><b>4500 minutes</b> <span class="price" style="color:red"><b>Kshs 700.00</b></span></p>
+       <p><b>5000 minutes</b> <span class="price" style="color:red"><b>Kshs 800.00</b></span></p>
+       <hr>
+       <label for="phone"><b>Phone number:</b></label>
+       <input class="input" type="number" placeholder="enter the number to receive the data">
+       <input type="submit" value="Purchase" class="btn">
+       </div>
+       </div><div class="col-25">
+       <div class="container">
+       <h3>MONTHLY DATA <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>30 DAYS</b></span></h3>
+       <p><b>10GB</b> <span class="price" style="color:red"><b>Kshs 200.00</b></span></p>
+       <p><b>12GB</b> <span class="price" style="color:red"><b>Kshs 240.00</b></span></p>
+       <p><b>14GB</b> <span class="price" style="color:red"><b>Kshs 280.00</b></span></p>
+       <p><b>16GB</b> <span class="price" style="color:red"><b>Kshs 320.00</b></span></p>
+       <p><b>18GB</b> <span class="price" style="color:red"><b>Kshs 360.00</b></span></p>
+       <p><b>20GB</b> <span class="price" style="color:red"><b>Kshs 400.00</b></span></p>
+       <p><b>22GB</b> <span class="price" style="color:red"><b>Kshs 440.00</b></span></p>
+       <p><b>24GB</b> <span class="price" style="color:red"><b>Kshs 580.00</b></span></p>
+       <hr>
+       <label for="phone"><b>Phone number:</b></label>
+       <input class="input" type="number" placeholder="enter the number to receive the data">
+       <input type="submit" value="Purchase" class="btn">
+       </div>
+       </div><div class="col-25">
+       <div class="container">
+       <h3>PREMIUM DATA <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>NO EXPIRY</b></span></h3>
+       <p><b> 90GB</b> <span class="price" style="color:red"><b>Kshs 1200.00</b></span></p>
+       <p><b>100GB</b> <span class="price" style="color:red"><b>Kshs 1400.00</b></span></p>
+       <p><b>120GB</b> <span class="price" style="color:red"><b>Kshs 1600.00</b></span></p>
+       <p><b>150GB</b> <span class="price" style="color:red"><b>Kshs 1800.00</b></span></p>
+       <hr>
+       <label for="phone"><b>Phone number:</b></label>
+       <input class="input" type="number" placeholder="enter the number to receive the data">
+       <input type="submit" value="Purchase" class="btn">
+       </div>
+       </div> 
+          
+        </fieldset>
+        
+        <center><footer class="hex">Thank you for choosing us</footer></center>
+        </body>
+    </html>
